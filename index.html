@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>Anime Website ( Responsive Design )</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="logo"><i class="fas fa-infinity"></i>NandSun.</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+
+                    <li class="nav_item">
+                        <a href="./index.html" class="nav_link active-link">Home</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <button class="nav_link dropdown-btn" onclick="toggleDropdown()">Categories</button>
+                        <div class="dropdown-content" id="categoriesDropdown">
+                            <a href="./shonen.html">shonen</a>
+                            <a href="#">seinen</a>
+                            <a href="#">shojo</a>
+                            <a href="#">josei</a>
+                            <a href="#">kodomomuke</a>
+                        </div>
+                    </li>
+
+                    
+
+
+                    <li class="nav_item">
+                        <a href="" class="nav_link ">About</a>
+                    </li>
+
+
+                    <li class="nav_item">
+                        <a href="" class="nav_link ">Help</a>
+                    </li>
+                    
+                </ul>
+
+                <div class="nav_close" id="nav-close">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="home">
+            <div class="home_container container grid">
+                <div class="home_content">
+                    <h1 class="home_title">
+                        Best Animie Platform
+                    </h1>
+                    <p class="home_description">
+                        Unleashing Imagination: Where Boundless Worlds and Epic Heroes Come to Life in Every Frame
+                    </p>
+                </div>
+                <img src="./img/home1.png" alt="" class="home_img">
+            </div>
+        </section>
+<!-------------------------------brand---------------------------------------------->
+        <section class="brand">
+            <div class="swiper brand-swiper container">
+                <div class="swiper-wrapper">
+                    <div class="brand_item swiper-slide">
+                        <img src="./img/logo-1.png" alt="" class="brand_logo">
+                    </div>
+
+
+                    <div class="brand_item swiper-slide">
+                        <img src="./img/logo-2.png" alt="" class="brand_logo">
+                    </div>
+
+                    <div class="brand_item swiper-slide">
+                        <img src="./img/logo-3.png" alt="" class="brand_logo">
+                    </div>
+
+                    <div class="brand_item swiper-slide">
+                        <img src="./img/logo-4.png" alt="" class="brand_logo">
+                    </div>
+
+
+                    <div class="brand_item swiper-slide">
+                        <img src="./img/logo-6.png" alt="" class="brand_logo">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+<!------------------------------Special for you------------------------------------->
+        <section class="special_anime container section">
+            <h2 class="section_title">
+                Special For You
+            </h2>
+            <div class="swiper anime-swiper">
+                <div class="swiper-wrapper">
+                    <div class="anime_item swiper-slide">
+                        <a href="/HTML/naruto.html"><img src="./img/anime-1.jpg" alt="" class="anime_img"></a>
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Naruto</h3>
+                            <span class="anime_detail">2002,Adventure</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-2.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Demon Slayer</h3>
+                            <span class="anime_detail">2019,Adventure</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-3.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Jujutsu Kaisen</h3>
+                            <span class="anime_detail">2020,Adventure</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-4.png" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Tokyo Revengers</h3>
+                            <span class="anime_detail">2021,Action</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-5.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Bleach</h3>
+                            <span class="anime_detail">2004,Adventure</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-6.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">One Piece</h3>
+                            <span class="anime_detail">2023,Action</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                     
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-7.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Dragon Ball Z</h3>
+                            <span class="anime_detail">1998,Adventure</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-8.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Sailor Moonragon </h3>
+                            <span class="anime_detail">1998,Magical girl</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    
+                </div>
+            </div>
+        </section>
+<!---------------------------------subscription--------------------------------------------------------------->
+        <section class="subscription"></section>
+<!-----------------------POPULAR-------------------------------------------->
+        <section class="popular_anime container section">
+            <h2 class="section_title">
+                Trending Now
+            </h2>
+            <div class="swiper anime-swiper">
+                <div class="swiper-wrapper">
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-5.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Bleach</h3>
+                            <span class="anime_detail">2004,Adventure</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-9.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Mushoku Tensei</h3>
+                            <span class="anime_detail">2017,Fantasy</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-10.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Kaiju No. 8</h3>
+                            <span class="anime_detail">2024,Monster-Hunting</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-11.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Shangri-La Frontier</h3>
+                            <span class="anime_detail">2023,Action</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-12.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">Danmachi</h3>
+                            <span class="anime_detail">2013,Adventure</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-13.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">The Dangers in My Heart</h3>
+                            <span class="anime_detail">2023,Romantic</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                     
+                    <div class="anime_item swiper-slide">
+                        <img src="./img/anime-14.jpg" alt="" class="anime_img">
+
+                        <div class="anime_data">
+                            <h3 class="anime_title">That Time I Got Reincarnated as a Slime</h3>
+                            <span class="anime_detail">2014,Adventure</span>
+
+                            <p class="anime_rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                   
+                    
+                </div>
+            </div>
+        </section>
+<!------------------------------TRENDING------------------------------------------------------->
+        <section class="trending_animie">
+            <div class="anime-wrapper container">
+                <h2 class="section_title">
+                    Most Popular
+                </h2>
+                <div class="swiper anime-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="anime_item swiper-slide">
+                            <img src="./img/anime-15.jpg" alt="" class="anime_img">
+    
+                            <div class="anime_data">
+                                <h3 class="anime_title">Attack on Titan</h3>
+                                <span class="anime_detail">2013,Action</span>
+    
+                                <p class="anime_rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="anime_item swiper-slide">
+                            <img src="./img/anime-2.jpg" alt="" class="anime_img">
+    
+                            <div class="anime_data">
+                                <h3 class="anime_title">Demon Slayer</h3>
+                                <span class="anime_detail">2019,Adventure</span>
+    
+                                <p class="anime_rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="anime_item swiper-slide">
+                            <img src="./img/anime-3.jpg" alt="" class="anime_img">
+    
+                            <div class="anime_data">
+                                <h3 class="anime_title">Jujutsu Kaisen</h3>
+                                <span class="anime_detail">2020,Adventure</span>
+    
+                                <p class="anime_rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="anime_item swiper-slide">
+                            <img src="./img/anime-16.jpg" alt="" class="anime_img">
+    
+                            <div class="anime_data">
+                                <h3 class="anime_title">My Hero Academia</h3>
+                                <span class="anime_detail">2021,Role playing</span>
+    
+                                <p class="anime_rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="anime_item swiper-slide">
+                            <img src="./img/anime-5.jpg" alt="" class="anime_img">
+    
+                            <div class="anime_data">
+                                <h3 class="anime_title">Bleach</h3>
+                                <span class="anime_detail">2004,Adventure</span>
+    
+                                <p class="anime_rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="anime_item swiper-slide">
+                            <img src="./img/anime-6.jpg" alt="" class="anime_img">
+    
+                            <div class="anime_data">
+                                <h3 class="anime_title">One Piece</h3>
+                                <span class="anime_detail">2023,Action</span>
+    
+                                <p class="anime_rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                         
+                        <div class="anime_item swiper-slide">
+                            <img src="./img/anime-17.jpg" alt="" class="anime_img">
+    
+                            <div class="anime_data">
+                                <h3 class="anime_title">Spy x Family</h3>
+                                <span class="anime_detail">2022,Romantic</span>
+    
+                                <p class="anime_rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-------------------------------FOOTER-------------------------------------->   
+    <footer class="footer">
+        <div class="footer_bottom">
+            <p class="footer_copyright">Copyright &copy; Anime 2024</p>
+        </div>
+        
+    </footer>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+    <script>
+        function toggleDropdown() {
+            document.getElementById("categoriesDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown-btn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
